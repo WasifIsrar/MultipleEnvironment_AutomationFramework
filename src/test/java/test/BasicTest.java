@@ -19,6 +19,6 @@ public class BasicTest {
 		this.environment=environment;
 		ConfigFactory.setProperty("env", environment);
 		Environment testEnvironment=ConfigFactory.create(Environment.class);
-		System.out.println(testEnvironment.pin());
+		System.out.println("PIN IS: "testEnvironment.pin());
 	}
 }
